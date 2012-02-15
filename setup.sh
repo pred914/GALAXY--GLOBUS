@@ -78,6 +78,10 @@ tar xvf tophat-1.4.0.Linux_x86_64.tar.gz
 cd  tophat-1.4.0.Linux_x86_64
 cp * /usr/bin
 
+cd ..
+cd galaxy-dist
+sudo sh run.sh
+
 
 
 
