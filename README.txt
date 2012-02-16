@@ -31,7 +31,7 @@ The package downloaded has
    GRANT ALL PRIVILEGES ON DATABASE galaxy_prod to galaxy;
    \q
 
-*******************SERVER**********************************************
+*******************FTP*********************************************
 
 3) proftpd server
 
