@@ -79,7 +79,13 @@ cd  tophat-1.4.0.Linux_x86_64
 cp * /usr/bin
 
 cd ..
-cd galaxy-dist
+cp universe_wsgi.ini ../galaxy-globus/
+cp nginx.conf /usr/local/nginx/conf/
+
+cp galaxy /etc/init.d/
+
+cd ..
+cd galaxy-globus
 sudo sh run.sh
 
 
